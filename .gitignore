@@ -1,0 +1,11 @@
+dist/
+node_modules/
+
+# Local secrets
+.env
+.env-portman
+portman/.env-portman 
+
+# Portman generated files
+tmp
+src/v2/tests/portman-generated-tests.json

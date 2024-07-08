@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es2021",
+    "module": "commonjs",
+    "outDir": "dist",
+    "sourceMap": true,
+    "lib": ["es2021", "dom"],
+    "baseUrl": "src",
+    "esModuleInterop": true,
+    "paths": {
+      "@/*": ["*"]
+    },
+
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "inlineSources": true,
+
+    "sourceRoot": "/"
+  },
+  "files": [
+    "src/v2/types/sample-spec.d.ts"],
+  "include": ["src/*.ts", "src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
